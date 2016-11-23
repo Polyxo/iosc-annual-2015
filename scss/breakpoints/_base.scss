@@ -287,14 +287,14 @@ BUTTON STYLES
 			text-align: center;
 		}
 	}
-	#nextbutton {
+	.nextbutton {
 		&:before {
 			font-family: 'FontAwesome';
 			content: "\f107";
 			text-align: center;
 		}
 	}
-	#previousbutton {
+	.previousbutton {
 		&:before {
 			font-family: 'FontAwesome';
 			content: "\f106";
