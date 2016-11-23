@@ -1,4 +1,8 @@
 .DS_Store
 node_modules/
 bower_components/
-custom/
+custom/*
+!custom/swiper/build
+!custom/swiper/dist
+playground
+src
