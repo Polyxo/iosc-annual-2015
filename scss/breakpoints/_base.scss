@@ -1,0 +1,334 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Base Mobile Stylesheet
+
+Be light and don't over style since everything here will be
+loaded by mobile devices. You want to keep it as minimal as
+possible. This is called at the top of the main stylsheet
+and will be used across all viewports.
+
+******************************************************************/
+
+/*********************
+GENERAL STYLES
+*********************/
+
+
+ html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #FFF;
+    color:#000;
+    margin: 0;
+    padding: 0;
+	font-family: $sans-serif;
+	font-size: 100%;
+	line-height: 1.5;
+	color: $text-color;
+	//position: fixed;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	//background-color: $gray;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+.no-js {
+	body {
+		overflow: visible;
+	}
+	.top-nav {
+		display: none;
+	}
+}
+
+.main-wrapper {
+	height: 100%;
+    padding: 0;
+}
+
+a {
+	outline : none;
+	&:active, &:focus {
+		outline: none;
+		-moz-outline-style: none;
+	}
+}
+
+/* Hidden Helper Class */
+.hidden {
+  display: none;
+}
+
+/*********************
+SLIDE STYLES
+*********************/
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    //padding: 1em;
+   	//border-radius: 20px;
+}
+.swiper-slide {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    flex-flow: column;
+    -webkit-flex-flow: column;
+    ms-flow: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background: #FFF;
+}
+
+.swiper-pagination {
+	display: none;
+}
+
+.swiper-slide-prev {
+	//opacity: 0 !important;
+}
+.swiper-slide-active, .swiper-slide-prev, .swiper-slide-next {
+	opacity: 1 !important;
+//	transform: translateX(500px) !important;
+}
+
+.no-touch.cssclippathsvg {
+	.swiper-slide-prev {
+		opacity: 1 !important;
+	}
+	.swiper-slide {
+		transition: opacity 0.5s, transform 0.5s, clip-path 0.5s, -webkit-clip-path 0.5s  !important;
+	}
+	.swiper-slide {
+		opacity: 0 !important;
+		//clip-path: polygon(0% 100%, 100% 200%, 100% 100%, 0% 100%);
+	}
+	.swiper-slide-active, .swiper-slide-prev {
+		//clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%);
+		opacity: 1 !important;
+	}
+	.swiper-slide-next {
+		opacity: 0 !important;
+		//clip-path: polygon(0% 100%, 100% 200%, 100% 100%, 0% 100%);
+	}
+	.secheading-slide  {
+		&.swiper-slide {
+			opacity: 0 !important;
+			clip-path: polygon(0% 100%, 100% 200%, 100% 100%, 0% 100%);
+		}
+		&.swiper-slide-active, .swiper-slide-prev {
+			clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%);
+			opacity: 1 !important;
+		}
+		&.swiper-slide-next {
+			opacity: 0 !important;
+			clip-path: polygon(0% 100%, 100% 200%, 100% 100%, 0% 100%);
+		}
+	}
+}
+
+.fitimage {
+	.background-image {
+		position: absolute;
+	}
+}
+
+.background-image {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	transform-origin: center;
+	transition: all 1s;
+}
+
+.center-wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+    	width: 70vw;
+    }
+}
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	z-index: 1000;
+}
+
+.main-nav, .swiper-nav, .social-nav {
+	text-align: left;
+	display: none;
+	z-index: 100;
+	background: $white;
+	font-size: 0.9em;
+	ul {
+		margin: 0;
+	}
+	li {
+		display: inline-block;
+		margin: 0 2em;
+		padding-bottom: 0.9em;
+		text-transform: uppercase;
+		letter-spacing: 0.2em;
+		a {
+			line-height: 42px;
+			padding-top: 4px;
+			display: inline-block;
+			color: $black;
+			text-decoration: none;
+			position: relative;
+			-webkit-user-select: none; /* Chrome/Safari */        
+			-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+ */
+			&:after {
+				content: "";
+				position: absolute;
+				bottom: 12px;
+				left: 0;
+				width: 100%;
+				height: 3px;
+				background: $blue;
+				transform: scaleX(0.1);
+				transition: all 0.3s;
+				opacity: 0;
+				
+			}
+			&.active {
+				color: $blue;
+				&:after {
+					transform: scaleX(1);
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+.main-nav {
+	margin: 0 1em;
+}
+
+.swiper-nav, .social-nav {
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 0;
+	li {
+		margin: 0;
+		padding: 0;
+		display: block;
+	}
+	a {
+		cursor: pointer;
+		font-size: 1.3em;
+		//border-left: 1px solid darken($white, 10);
+		border-bottom: 1px solid darken($white, 10);
+        text-align: center;
+        padding: 0 1em;
+		font-weight: bold;
+		&.swiper-button-disabled {
+			opacity: 0.7;
+			cursor: text;
+			&:hover {
+				color: $black;
+			}
+		}
+		&:hover {
+			color: $blue;
+		}
+	}
+	span {
+		display: none;
+	}
+
+/*********************
+BUTTON STYLES
+*********************/
+
+	#navbutton {
+		&:before {
+			font-family: 'FontAwesome';
+			content: "\f107";
+			text-align: center;
+		}
+	}
+	#nextbutton {
+		&:before {
+			font-family: 'FontAwesome';
+			content: "\f107";
+			text-align: center;
+		}
+	}
+	#previousbutton {
+		&:before {
+			font-family: 'FontAwesome';
+			content: "\f106";
+			text-align: center;
+		}
+	}
+	#facebookbutton {
+		&:before {
+			font-family: 'FontAwesome';
+			content: "\f230"; //"\f09a";
+			color: #3B5998;
+			font-size: 1.5em;
+			text-align: center;
+		}
+	}
+	#twitterbutton {
+		&:before {
+			font-family: 'FontAwesome';
+			content: "\f081"; //"\f099";
+			color: #1D8EEF;
+			font-size: 1.5em;
+			text-align: center;
+		}
+	}
+}
+
+.social-nav {
+	display: none;
+}
+
+.top-nav {
+	display: none;
+}
+
+.invisible {
+	opacity: 0;
+}

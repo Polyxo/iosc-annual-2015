@@ -1,0 +1,32 @@
+.lookback-slide.swiper-slide {
+	background-color: $lightbackground;
+	/* h2 {
+		font-size: 12vw;
+		text-transform: uppercase;
+		color: $lightblue;
+	} */
+	img {
+		width: 80%;
+		height: auto;
+		//-webkit-clip-path: polygon(0 0,  0% 0, 0% 100%, 0 100% );
+		transition: all 0.5s ease-in-out 0.4s;
+	}
+	&.swiper-slide-active {
+		img {
+			opacity: 1;
+			//-webkit-clip-path: polygon(0 0,  100% 0, 100% 100%, 0 100% );
+			//animation-name: lookback;
+    		animation-duration: 0.3s; // 2s
+		}
+	}
+}
+
+/*
+@keyframes lookback {
+    0%   {-webkit-clip-path: polygon(0 0,  -20% 0, 0% 100%, 0 100% );}
+    25%  {-webkit-clip-path: polygon(0 0,  10% 0, 15% 100%, 0 100% );}
+    35%  {-webkit-clip-path: polygon(0 0,  10% 0, 15% 100%, 0 100% );}
+    65%  {-webkit-clip-path: polygon(0 0,  60% 0, 55% 100%, 0 100% );}
+    75%  {-webkit-clip-path: polygon(0 0,  60% 0, 55% 100%, 0 100% );}
+    100% {-webkit-clip-path: polygon(0 0,  100% 0, 150% 100%, 0 100% );}
+}*/

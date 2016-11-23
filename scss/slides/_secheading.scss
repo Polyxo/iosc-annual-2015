@@ -1,0 +1,53 @@
+/* Secondary Headings */
+
+.secheading-slide.swiper-slide {
+    background: $lightbackground;
+    &.swiper-slide-active {
+        h3 {
+            opacity: 1;
+        }
+    }
+    h3 {
+        color: $light-gray;
+        text-align: center;
+        font-size: 9vmax;
+        text-transform: uppercase;
+        font-weight: 100;
+        padding: 0 10vw;
+        z-index: 1000;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+    .logo {
+        height: 12vmin;
+        width: auto;
+    }
+    &.lookback {
+        background-color: #2E7BC0;
+    }
+    &.first {
+        background-color: #C04935;
+    }
+    &.second {
+        background-color: #64174E;
+    }
+    &.third {
+        background-color: #129293;
+    }
+    &.financials {
+        background-color: #A73024;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .secheading-slide.swiper-slide {
+        .logo {
+            height: 18vmin;
+        }
+        &.financials {
+            .logo {
+                height: 13vmin;
+            }
+        }
+    }
+} // end of media query

@@ -1,0 +1,20 @@
+.intro-fade-slide.swiper-slide {
+    background: #000035;
+    .background-image.vertical {
+        opacity: 0;
+        transform: translateX(-300px) translateY(200px) scale(1.4);
+    }
+    .background-image.horizontal {
+        opacity: 0;
+        transform: translateX(500px) translateY(250px) scale(1.4);
+    }
+    &.swiper-slide-active {
+        .background-image.horizontal, .background-image.vertical {
+            transform: translateX(0) scale(1.4);
+            opacity: 0.8;
+        }
+        .background-image.vertical {
+            opacity: 0.2;
+        }
+    }
+}

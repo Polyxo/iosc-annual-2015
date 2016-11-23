@@ -1,0 +1,113 @@
+/* Mobile Navigation */
+
+.menuicon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1;
+    cursor: pointer;
+    background: lighten(#000, 20);
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    display: block;
+    color: #FFF !important;
+    font-size: 1.5em;
+    border: none;
+    z-index: 1500;
+    padding-left: 17px;
+    padding-top: 17px;
+    transform: scale(1);
+    transition: all 0.3s;
+    &:hover {
+        //background: lighten(#000,10);
+    }
+    .bar {
+        width: 23px;
+        height: 3px;
+        background: #FFF;
+        margin-bottom: 5px;
+        background-color: #FFF;
+        transition: all 0.3s;
+    }
+    .bartext {
+        position: absolute;
+        left: 37px;
+        top: -7px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    &.open {
+        .bar {
+            background: #FFF;
+        }
+        .bar1 {
+            transform: translateY(8px) rotate(-45deg);
+        }
+        .bar2 {
+            opacity: 0;
+        }
+        .bar3 {
+            transform: translateY(-8px) rotate(45deg);
+        }
+    }
+}
+
+.backicon {
+    position: fixed;
+    top: 0;
+    right: 50px;
+    opacity: 1;
+    cursor: pointer;
+    text-decoration: none;
+    @include transition(all 0.3s);
+    background: lighten(#000, 30);
+    //background: darken($highlight,10);
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    color: #FFF !important;
+    display: none;
+    &:hover {
+        //background: lighten(#000,25);
+    }
+}
+
+.mobilenav {
+    header {
+        height: 100%;
+        width: 100%;
+    }
+    .main-nav {
+        margin: 0;
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: lighten($black,2);
+        text-align: center;
+        padding-top: 7vh;
+        li {
+            width: 100%;
+            margin: 0;
+        }
+        a {
+            width: 100%;
+            font-weight: bold;
+            font-size: 1.4em;
+            line-height: 13vh;
+            color: $white;
+            &:after {
+                display: none;
+            }
+        }
+    }
+    .swiper-nav {
+        .swiper-nav-item {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+
+
+@keyframes intro {
+    0%   { z-index: 100000; }
+    90%   { z-index: 100000; }
+    100% { z-index: auto; }
+}
+
+.intro-slide.swiper-slide {
+	background: #2484C6;
+	animation-name: intro;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+}
+.logo {
+	z-index: 100;
+	position: relative;
+	transform: translateX(1px);
+}
+
+@keyframes scrolldown {
+    from {transform: translateY(7px)}
+    to {transform: translateY(0px)}
+}

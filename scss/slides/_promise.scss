@@ -1,0 +1,85 @@
+.promise-slide.swiper-slide {
+	//background: $lightbackground;
+	&.swiper-slide-active {
+		.background-image.horizontal, .background-image.vertical {
+			transform: translateX(0) scale(1.2);
+			opacity: 1;
+		}
+		h2 {
+			opacity: 1;
+		}
+	}
+	h2 {
+		color: $yellow;
+		text-align: center;
+		font-size: 3.5vmax;
+		font-weight: 100;
+		padding: 0 10vw;
+		z-index: 1000;
+		opacity: 0;
+		width: 100%;
+		transition: all 0.5s;
+		text-align: center;
+	}
+	.promise-wrapper {
+		display: block;
+		position: relative;
+		div {
+			display: none;
+		}
+	}
+	.promise-outer {
+		animation-name: promise;
+		animation-duration: 4s;
+		animation-delay: 0s;
+		animation-iteration-count: infinite;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		white-space: nowrap;
+		.promise-inner {
+			background-color: $yellow;
+			color: $white;
+			padding: 0 0.3em;
+			&:before {
+				content: "[";
+			}
+			&:after {
+				content: "]";
+			}
+		}
+		&:nth-child(2) {
+			animation-delay: 2s;
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) {
+
+	.promise-slide.swiper-slide {
+		.promise-wrapper {
+			display: inline-block;
+			width: auto;
+			.promise-outer {
+				width: auto;
+			}
+			div {
+				opacity: 0;
+				display: block;
+			}
+		}
+
+	}
+
+} // end of media query
+
+
+@keyframes promise {
+    0%   { /* -webkit-clip-path: polygon(0 0,  -20% 0, 0% 100%, 0 100% ); */ opacity: 0; }
+    10% { /* -webkit-clip-path: polygon(0 0,  100% 0, 150% 100%, 0 100% ); */ opacity: 1;}
+    30% { /* -webkit-clip-path: polygon(0 0,  100% 0, 150% 100%, 0 100% ); */ opacity: 1;}
+    40% { /* -webkit-clip-path: polygon(0 0,  -20% 0, 0% 100%, 0 100% ); */ opacity: 0; }
+    50% { /* -webkit-clip-path: polygon(0 0,  -20% 0, 0% 100%, 0 100% ); */ opacity: 0; }
+    100% { /* -webkit-clip-path: polygon(0 0,  -20% 0, 0% 100%, 0 100% ); */ opacity: 0; }
+}
