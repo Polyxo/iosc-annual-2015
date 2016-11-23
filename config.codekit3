@@ -1674,24 +1674,6 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/scss\/.sass-cache\/2ef604a26d4c602069cf213d87c1baa232922746\/style.scssc": {
 		"ft": 8192,
 		"oA": 2,
