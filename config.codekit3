@@ -73,7 +73,7 @@
 		},
 	"\/bower_components\/imagefill\/js\/jquery-imagefill.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/imagefill\/js\/jquery-imagefill.js",
 		"oF": 0,
@@ -82,7 +82,7 @@
 		},
 	"\/bower_components\/imagefill\/js\/vendor\/html5shiv.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/imagefill\/js\/vendor\/html5shiv.js",
 		"oF": 0,
@@ -91,7 +91,7 @@
 		},
 	"\/bower_components\/imagefill\/js\/vendor\/jquery-1.10.1.min.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/imagefill\/js\/vendor\/jquery-1.10.1.min.js",
 		"oF": 0,
@@ -684,7 +684,7 @@
 		},
 	"\/js\/main.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/js\/min\/main-min.js",
 		"oF": 0,
@@ -693,7 +693,7 @@
 		},
 	"\/js\/min\/main-min.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 1,
 		"oAP": "\/js\/min\/min\/main-min-min.js",
 		"oF": 0,
@@ -702,7 +702,7 @@
 		},
 	"\/lib\/Modernizr.cssclip.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/min\/Modernizr.cssclip-min.js",
 		"oF": 0,
@@ -778,7 +778,7 @@
 		},
 	"\/lib\/swiper\/build\/js\/swiper.framework7.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/build\/js\/min\/swiper.framework7-min.js",
 		"oF": 0,
@@ -787,7 +787,7 @@
 		},
 	"\/lib\/swiper\/build\/js\/swiper.jquery.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/build\/js\/min\/swiper.jquery-min.js",
 		"oF": 0,
@@ -796,7 +796,7 @@
 		},
 	"\/lib\/swiper\/build\/js\/swiper.jquery.umd.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/build\/js\/min\/swiper.jquery.umd-min.js",
 		"oF": 0,
@@ -805,7 +805,7 @@
 		},
 	"\/lib\/swiper\/build\/js\/swiper.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/build\/js\/min\/swiper-min.js",
 		"oF": 0,
@@ -1090,6 +1090,16 @@
 		"oAP": "\/lib\/swiper\/demos\/39-zoom.html",
 		"oF": 0
 		},
+	"\/lib\/swiper\/dist\/css\/swiper-ck.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/lib\/swiper\/dist\/css\/swiper-ck-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/lib\/swiper\/dist\/css\/swiper.css": {
 		"aP": 0,
 		"bl": 0,
@@ -1130,7 +1140,7 @@
 		},
 	"\/lib\/swiper\/dist\/js\/swiper.jquery.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/dist\/js\/min\/swiper.jquery-min.js",
 		"oF": 0,
@@ -1139,7 +1149,7 @@
 		},
 	"\/lib\/swiper\/dist\/js\/swiper.jquery.min.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/dist\/js\/min\/swiper.jquery.min-min.js",
 		"oF": 0,
@@ -1148,7 +1158,7 @@
 		},
 	"\/lib\/swiper\/dist\/js\/swiper.jquery.umd.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/dist\/js\/min\/swiper.jquery.umd-min.js",
 		"oF": 0,
@@ -1157,7 +1167,7 @@
 		},
 	"\/lib\/swiper\/dist\/js\/swiper.jquery.umd.min.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/dist\/js\/min\/swiper.jquery.umd.min-min.js",
 		"oF": 0,
@@ -1166,7 +1176,7 @@
 		},
 	"\/lib\/swiper\/dist\/js\/swiper.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/dist\/js\/min\/swiper-min.js",
 		"oF": 0,
@@ -1175,7 +1185,7 @@
 		},
 	"\/lib\/swiper\/dist\/js\/swiper.min.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/dist\/js\/min\/swiper.min-min.js",
 		"oF": 0,
@@ -1184,7 +1194,7 @@
 		},
 	"\/lib\/swiper\/gulpfile.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/min\/gulpfile-min.js",
 		"oF": 0,
@@ -1213,7 +1223,7 @@
 		},
 	"\/lib\/swiper\/package.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/min\/package-min.js",
 		"oF": 0,
@@ -1254,7 +1264,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/a11y.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/a11y-min.js",
 		"oF": 0,
@@ -1263,7 +1273,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/amd.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/amd-min.js",
 		"oF": 0,
@@ -1272,7 +1282,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/controller.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/controller-min.js",
 		"oF": 0,
@@ -1281,7 +1291,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/core.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/core-min.js",
 		"oF": 0,
@@ -1290,7 +1300,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/dom-plugins.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/dom-plugins-min.js",
 		"oF": 0,
@@ -1299,7 +1309,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/dom.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/dom-min.js",
 		"oF": 0,
@@ -1308,7 +1318,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/effects.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/effects-min.js",
 		"oF": 0,
@@ -1317,7 +1327,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/emitter.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/emitter-min.js",
 		"oF": 0,
@@ -1326,7 +1336,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/get-dom-lib.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/get-dom-lib-min.js",
 		"oF": 0,
@@ -1335,7 +1345,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/get-jquery.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/get-jquery-min.js",
 		"oF": 0,
@@ -1344,7 +1354,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/hashnav.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/hashnav-min.js",
 		"oF": 0,
@@ -1353,7 +1363,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/history.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/history-min.js",
 		"oF": 0,
@@ -1362,7 +1372,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/init.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/init-min.js",
 		"oF": 0,
@@ -1371,7 +1381,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/keyboard.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/keyboard-min.js",
 		"oF": 0,
@@ -1380,7 +1390,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/lazy-load.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/lazy-load-min.js",
 		"oF": 0,
@@ -1389,7 +1399,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/mousewheel.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/mousewheel-min.js",
 		"oF": 0,
@@ -1398,7 +1408,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/parallax.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/parallax-min.js",
 		"oF": 0,
@@ -1407,7 +1417,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/plugins.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/plugins-min.js",
 		"oF": 0,
@@ -1416,7 +1426,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/scrollbar.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/scrollbar-min.js",
 		"oF": 0,
@@ -1425,7 +1435,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/swiper-intro-f7.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/swiper-intro-f7-min.js",
 		"oF": 0,
@@ -1434,7 +1444,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/swiper-intro.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/swiper-intro-min.js",
 		"oF": 0,
@@ -1443,7 +1453,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/swiper-outro.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/swiper-outro-min.js",
 		"oF": 0,
@@ -1452,7 +1462,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/swiper-proto.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/swiper-proto-min.js",
 		"oF": 0,
@@ -1461,7 +1471,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/wrap-end-umd.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/wrap-end-umd-min.js",
 		"oF": 0,
@@ -1470,7 +1480,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/wrap-end.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/wrap-end-min.js",
 		"oF": 0,
@@ -1479,7 +1489,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/wrap-start-umd.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/wrap-start-umd-min.js",
 		"oF": 0,
@@ -1488,7 +1498,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/wrap-start.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/wrap-start-min.js",
 		"oF": 0,
@@ -1497,7 +1507,7 @@
 		},
 	"\/lib\/swiper\/src\/js\/zoom.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/lib\/swiper\/src\/js\/min\/zoom-min.js",
 		"oF": 0,
@@ -4063,14 +4073,14 @@
 		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsJS": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*-min.js",
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
-		"minifyOutput": 1,
+		"minifyOutput": 0,
 		"syntaxCheckerStyle": 1,
 		"transpilerStyle": 0
 		},
